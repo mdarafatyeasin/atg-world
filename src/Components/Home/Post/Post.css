@@ -1,6 +1,88 @@
-.read{
+.read {
     width: 692px;
 }
-.create{
+
+.create {
     width: 243px;
+}
+
+.post {
+    width: 692px;
+    height: 472px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.post img {
+    height: 220px;
+    width: 692px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.sub-title-box {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title {
+    width: 600px;
+}
+
+.sub-title-box div {
+    padding-right: 24px;
+}
+
+.description {
+    color: #5C5C5C;
+    padding-left: 20px;
+}
+
+.user-img img {
+    width: 48px;
+    height: 48px;
+}
+
+.user-name h2 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.user-container {
+    padding: 0 20px;
+}
+
+.view {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #525252;
+}
+
+.share {
+    margin-left: 54px;
+    height: 36px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EDEEF0;
+    border-radius: 2px;
+}
+
+.share svg {
+    height: 18px;
+    width: 16px;
 }
