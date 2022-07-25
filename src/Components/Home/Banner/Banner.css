@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+    height: 440px;
+    background-image: url(../../../Asset/background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.banner div h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.banner div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+    padding-left: 200px;
+}

@@ -1,0 +1,58 @@
+.sub-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.left ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.left ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000000;
+    /* position: relative; */
+}
+
+.left ul {
+    padding: 0;
+    margin: 0;
+}
+
+.post-btn {
+    width: 133px;
+    height: 36px;
+    left: 966px;
+    top: 552px;
+    border: none;
+    background: #EDEEF0;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.post-btn p {
+    display: inline-block;
+    margin: 0;
+    padding-right: 6px;
+}
+
+.add-btn {
+    width: 133px;
+    height: 36px;
+    left: 966px;
+    top: 552px;
+    border: none;
+    background: #2F6CE5;
+    border-radius: 4px;
+    color: white;
+}
+.add-btn p {
+    display: inline-block;
+    margin: 0;
+    padding-left: 6px;
+}
