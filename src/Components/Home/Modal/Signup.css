@@ -1,0 +1,58 @@
+.create-account-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.ReactModal__Content {
+    width: 780px;
+    height: 513px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.btn-X-right {
+    text-align: right;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.btn-X-right button {
+    border: none;
+    color: black;
+    background-color: transparent;
+}
+
+.modal-title {
+    height: 80px;
+    background: #EFFFF4;
+}
+
+.modal-title div p {
+    text-align: center;
+    color: #008A45;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.modal-nav {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 36px;
+}
+
+.modal-nav h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.modal-nav p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.content-sec{
+    display: flex;
+    justify-content: center;
+}

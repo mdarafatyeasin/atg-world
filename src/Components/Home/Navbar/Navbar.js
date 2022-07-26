@@ -9,11 +9,11 @@ const Navbar = () => {
             <div className='sub-navbar'>
                 <dib className="left">
                     <ul>
-                        <li><a href=''>All Posts(32)</a></li>
-                        <li><a href=''>Article</a></li>
-                        <li><a href=''>Event</a></li>
-                        <li><a href=''>Education</a></li>
-                        <li><a href=''>Job</a></li>
+                        <li className='active'><a href=''>All Posts(32)</a></li>
+                        <li><a className='inactive' href=''>Article</a></li>
+                        <li><a className='inactive' href=''>Event</a></li>
+                        <li><a className='inactive' href=''>Education</a></li>
+                        <li><a className='inactive' href=''>Job</a></li>
                     </ul>
                 </dib>
                 <dib className="right">
