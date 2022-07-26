@@ -2,7 +2,6 @@ import React from 'react';
 import { UilMapMarker } from '@iconscout/react-unicons'
 import { UilPen } from '@iconscout/react-unicons'
 import { UilExclamationCircle } from '@iconscout/react-unicons'
-
 const Create = () => {
     return (
         <div className='create'>
@@ -21,6 +20,7 @@ const Create = () => {
                 <div className='location-message d-flex'>
                     <UilExclamationCircle />
                     <p>Your location will help us serve better and extend a personalised experience.</p>
+                    
                 </div>
         </div>
     );
