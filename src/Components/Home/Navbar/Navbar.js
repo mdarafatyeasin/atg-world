@@ -5,7 +5,7 @@ import { UilAngleDown } from '@iconscout/react-unicons'
 
 const Navbar = () => {
     return (
-        <>
+        <div id='sub-navbar'>
             <div className='sub-navbar'>
                 <dib className="left">
                     <ul>
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </dib>
             </div>
             <hr />
-        </>
+        </div>
     );
 };
 

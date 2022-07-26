@@ -4,7 +4,7 @@ import { UilSearchAlt } from '@iconscout/react-unicons'
 
 const Titlebar = () => {
     return (
-        <div className='navbar flex'>
+        <div className='title-bar flex'>
             <div className='first'>Logo</div>
             <div className='second'>
                 <UilSearchAlt color= "#495057" className='icon'></UilSearchAlt>

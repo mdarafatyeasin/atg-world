@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    padding-top: 40px;
+    background-color: white;
 }
 .left ul li {
     display: inline-block;
@@ -55,4 +56,9 @@
     display: inline-block;
     margin: 0;
     padding-left: 6px;
+}
+#sub-navbar{
+    position: sticky;
+    top: 72px;
+    background-color: white;
 }

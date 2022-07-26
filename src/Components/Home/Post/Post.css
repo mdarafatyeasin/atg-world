@@ -4,6 +4,8 @@
 
 .create {
     width: 243px;
+    position: sticky;
+    top: 204px;
 }
 
 .post {
@@ -85,4 +87,20 @@
 .share svg {
     height: 18px;
     width: 16px;
+}
+.location{
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.location-message p{
+    margin-left: 8.33px;
+    font-size: 12px;
+}
+.location-message{
+    color: #868E96;
+    margin-top: 32px;
 }
