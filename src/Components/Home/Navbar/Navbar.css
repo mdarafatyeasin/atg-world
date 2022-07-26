@@ -62,15 +62,22 @@
     top: 72px;
     background-color: white;
 }
+.active{
+    font-weight: 700;
+    color: black;
+}
 
 
 
 
-@media only screen and (max-width: 360px){
+@media (max-width:360px){
     .add-btn{
         display: none;
     }
     .inactive{
         display: none;
+    }
+    #sub-navbar{
+        top: 0;
     }
 }

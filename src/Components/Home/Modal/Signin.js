@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import './Signup.css'
 import Modal from 'react-modal'
 import { UilTimesCircle } from '@iconscout/react-unicons'
-import login1 from '../../../Asset/login1.jpg'
+import login2 from '../../../Asset/login2.jpg'
 import { UilFacebook } from '@iconscout/react-unicons'
 import { UilGoogle } from '@iconscout/react-unicons'
-import { Link } from 'react-router-dom';
 
 const Signup = () => {
     const [modalIsOpn, setModalIsOpen] = useState(false)
@@ -55,7 +54,7 @@ const Signup = () => {
                             <button className='facebook-btn'><span><UilGoogle/></span> Create Account</button>
                         </div>
                         <div className='img-section'>
-                            <img src={login1} alt="" />
+                            <img src={login2} alt="" />
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
 .banner div h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    /* font-size: 36px; */
     /* identical to box height */
     color: #FFFFFF;
     padding: 0;
@@ -19,7 +19,7 @@
 .banner div p {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    /* font-size: 18px; */
     color: #FFFFFF;
 }
 
@@ -29,4 +29,52 @@
     justify-content: flex-end;
     margin-bottom: 80px;
     padding-left: 200px;
+}
+
+.r-join-group {
+    width: 76px;
+    height: 28px;
+    font-size: 12px;
+    background-color: transparent;
+    color: white;
+    border: 0.8px solid #FFFFFF;
+    border-radius: 4px;
+    display: none;
+}
+.r-arrow{
+    display: none;
+}
+
+
+/* responsive part */
+@media (max-width:360px){
+    .r-arrow{
+        display: block;
+    }
+    .r-join-group{
+        display: block;
+    }
+    .banner-text{
+        padding: 0 10px;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 14px;
+    }
+    .r-banner-text{
+        top: 30px;
+    }
+    .title-info{
+        margin-top: 95px;
+    }
+    .title-info h2{
+        font-size: 16px;
+        padding: 0;
+    }
+    .title-info p{
+        font-size: 12px;
+        padding: 0;
+    }
+    .banner{
+        height: 236px;
+    }
 }

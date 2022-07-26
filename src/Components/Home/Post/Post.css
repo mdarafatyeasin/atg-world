@@ -10,15 +10,16 @@
 
 .post {
     width: 692px;
-    height: 472px;
+    /* height: 472px; */
     border: 1px solid #CED4DA;
     border-radius: 4px;
     margin-bottom: 16px;
+    padding-bottom: 20px;
 }
 
 .post img {
     height: 220px;
-    width: 692px;
+    width: 100%;
 }
 
 .title {
@@ -103,4 +104,28 @@
 .location-message{
     color: #868E96;
     margin-top: 32px;
+}
+
+
+/* --------------------------------------------------------------- */
+@media (max-width:360px){
+    .post{
+        width: 360px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .sub-title h2{
+        font-size: 16px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .user-img img{
+        height: 36px;
+        width: 36px;
+    }
+    .user-name h2{
+        font-size: 13px;
+    }
 }

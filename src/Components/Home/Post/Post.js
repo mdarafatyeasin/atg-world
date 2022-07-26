@@ -1,8 +1,8 @@
 import React from 'react';
 import './Post.css'
 import ps1 from '../../../Asset/ps1.jpg'
-// import ps2 from '../../../Asset/ps2.jpg'
-// import ps3 from '../../../Asset/ps3.jpg'
+import ps2 from '../../../Asset/ps2.jpg'
+import ps3 from '../../../Asset/ps3.jpg'
 import user from '../../../Asset/user.png'
 import { UilSwatchbook } from '@iconscout/react-unicons'
 import { UilEye } from '@iconscout/react-unicons'
@@ -24,7 +24,7 @@ const Post = () => {
                         <img src={ps1} alt="nature" />
                     </div>
                     <div className="content">
-                        <h1 className='title'><UilSwatchbook /> Article</h1>
+                        <h1 className='title'><UilSwatchbook /> <p>Article</p></h1>
                         <div>
                             <div className='sub-title-box'>
                                 <div className='sub-title'>
@@ -36,13 +36,13 @@ const Post = () => {
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Edit</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Another action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Report</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Something else here</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">View</MDBDropdownLink>
                                             </MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
@@ -65,7 +65,7 @@ const Post = () => {
                 {/* ------------------------------------------------------ */}
                 <div className="post">
                     <div className="img">
-                        <img src={ps1} alt="nature" />
+                        <img src={ps2} alt="nature" />
                     </div>
                     <div className="content">
                         <h1 className='title'><UilSwatchbook /> Article</h1>
@@ -80,13 +80,13 @@ const Post = () => {
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Edit</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Another action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Report</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Something else here</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Vew</MDBDropdownLink>
                                             </MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
@@ -110,7 +110,7 @@ const Post = () => {
                 {/* ------------------------------------------------------ */}
                 <div className="post">
                     <div className="img">
-                        <img src={ps1} alt="nature" />
+                        <img src={ps3} alt="nature" />
                     </div>
                     <div className="content">
                         <h1 className='title'><UilSwatchbook /> Article</h1>
@@ -125,13 +125,13 @@ const Post = () => {
                                         </MDBDropdownToggle>
                                         <MDBDropdownMenu>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Edit</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Another action</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Report</MDBDropdownLink>
                                             </MDBDropdownItem>
                                             <MDBDropdownItem>
-                                                <MDBDropdownLink href="#">Something else here</MDBDropdownLink>
+                                                <MDBDropdownLink href="#">Vew</MDBDropdownLink>
                                             </MDBDropdownItem>
                                         </MDBDropdownMenu>
                                     </MDBDropdown>
