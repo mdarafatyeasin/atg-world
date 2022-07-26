@@ -48,11 +48,92 @@
     font-size: 24px;
     font-weight: 700;
 }
+
 .modal-nav p {
     font-size: 13px;
     font-weight: 400;
 }
-.content-sec{
+
+.content-sec {
     display: flex;
     justify-content: center;
+}
+
+.name {
+    display: flex;
+}
+
+.name input {
+    height: 46px;
+    padding: 7px;
+    width: 100%;
+}
+
+.img-section {
+    width: 50%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+}
+
+.others input {
+    height: 46px;
+}
+
+.input-section form {
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 2px;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 40px;
+    left: 388px;
+    top: 515px;
+    color: white;
+    border: none;
+    background: #2F6CE5;
+    border-radius: 20px;
+    margin-top: 19px;
+}
+
+.google-btn {
+    margin-top: 24px;
+    width: 100%;
+    height: 38px;
+    left: 388px;
+    top: 579px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+}
+.google-btn span{
+    color: #2F6CE5;
+}
+.facebook-btn {
+    margin-top: 8px;
+    width: 100%;
+    height: 38px;
+    left: 388px;
+    top: 579px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+}
+.input-section{
+    margin-left: 36px;
+}
+.sign-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-btn p{
+    margin: 0;
 }

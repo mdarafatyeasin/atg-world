@@ -6,13 +6,12 @@ import login1 from '../../../Asset/login1.jpg'
 import { UilFacebook } from '@iconscout/react-unicons'
 import { UilGoogle } from '@iconscout/react-unicons'
 import { Link } from 'react-router-dom';
-import Signin from '../Modal/Signin';
 
 const Signup = () => {
     const [modalIsOpn, setModalIsOpen] = useState(false)
     return (
         <div>
-            <button className='create-account-btn' onClick={() => setModalIsOpen(true)} >It's free!</button>
+            <button className='create-account-btn text-primary' onClick={() => setModalIsOpen(true)} ><strong>Sign In</strong></button>
             <Modal isOpen={modalIsOpn}
                 style={
                     {
@@ -41,19 +40,14 @@ const Signup = () => {
                     </div>
                     <div className="modal-nav">
                         <h2>Create Account</h2>
-                        <div className='sign-btn'><p>Already have an account?</p><Signin/></div>
+                        <p>Don’t have an account yet?<strong className='text-primary'> Create new for free!</strong></p>
                     </div>
                     <div className="content-sec">
                         <div className='input-section'>
                             <form>
-                                <div className="name">
-                                    <input type="text" placeholder='First Name' />
-                                    <input type="text" placeholder='Last Name' />
-                                </div>
                                 <div className="others">
                                     <input type="email" placeholder='Email'/>
                                     <input type="password" placeholder='Password'/>
-                                    <input type="password" placeholder='Confirm Password'/>
                                 </div>
                             </form>
                             <button className='submit-btn'>Create Account</button>
